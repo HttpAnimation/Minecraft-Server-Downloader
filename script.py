@@ -2,7 +2,8 @@ import subprocess
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
-
+import os
+os.system("mkdir Downloads")
 def read_versions_file():
     versions = []
     try:
