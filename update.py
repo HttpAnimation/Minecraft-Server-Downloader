@@ -14,8 +14,8 @@ def download_file(url, filename):
     print("Download completed.")
 
 # Provide the URL of the file and the desired filename
-url = "https://www.example.com/file.txt"
-filename = "file.txt"
+url = "https://raw.githubusercontent.com/HttpAnimation/Minecraft-Server-Downloader/main/script.py"
+filename = "script.py"
 
 # Call the download_file function
 download_file(url, filename)
